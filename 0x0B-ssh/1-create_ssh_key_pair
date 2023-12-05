@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that generate the ssh private-public key
+
+< /dev/zero ssh-keygen -t rsa -b 4096 -f ./school -N "betty"
